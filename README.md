@@ -25,14 +25,14 @@ The project developed using TensorFlow to detect the License Plate from a car an
   * Then the CSV file is converted into **TensorFlow record format**.
 * The set of other separate 10 images also gone through the above steps and saved as **Test Record file** 
 <p align="center">
-  <img src="custom_plate/image_readme/labelImg.png" width=676 height=450>
+  
 </p>  
 
 #### GPU TRAINING
 
 * By using the **Tensorflow-gpu** version, the set of annotated images were sent into the Convolutional neural network called as **ssd-mobilenet** where the metrics such as model learning rate, batch of images sent into the network and evaluation configurations were set. The training phase of the model took several days. At last the model came around with the positive result and detected the number plate over the input images.
 <p align="center">
-  <img src="custom_plate/image_readme/test.png" width=676 height=450>
+  
 </p> 
 
 #### OCR PART
@@ -41,15 +41,15 @@ The project developed using TensorFlow to detect the License Plate from a car an
 
 #### CROP
 <p align="left">
-  <img src="custom_plate/image_readme/crop.png" width=300 height=100>
+   
 </p>
 
 #### CONVERSION
 <p align="left">
-  <img src="custom_plate/image_readme/conversion.png" width=300 height=100>
+   
 </p> 
 <p align="center">
-  <img src="custom_plate/image_readme/char_recog.png" width=900 height=600>
+  
 </p> 
 
 #### MOTION DETECTION PART
